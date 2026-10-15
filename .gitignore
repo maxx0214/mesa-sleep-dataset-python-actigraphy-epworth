@@ -1,0 +1,36 @@
+# Research inputs and all derived participant-level or aggregate outputs.
+/data/
+/outputs/
+/work/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.edf
+*.hwp
+*.hwpx
+*.docx
+*.pdf
+*.zip
+*.7z
+*.log
+*.bak*
+
+# Local environments, credentials, and editor state.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.codex/
+.agents/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
